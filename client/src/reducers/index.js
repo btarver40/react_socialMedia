@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
-import socialmedia from './socialmedia'
+import users from './users'
 
 const rootReducer = combineReducers({
-  socialmedia,
+  users,
 })
 
 export default rootReducer

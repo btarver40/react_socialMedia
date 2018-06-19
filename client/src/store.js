@@ -1,5 +1,4 @@
 // THIS IS OUR REDUX STORE WHICH IS WHY IT IS CALLED store.js
-
 import {createStore, compose, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
 import rootReducer from './reducers/index'
